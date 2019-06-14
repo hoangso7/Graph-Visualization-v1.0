@@ -1193,8 +1193,6 @@ void Program::mainMenu(){
         case MOVE_VERTEX:                   return moveVertex();             
         case HELP:                          return Help();                          
         case DEL_ALL:                       return delAll();                     
-        // case SPEED_DOWN:                    return menu.reset();//not done yet              
-        // case SPEED_UP:                      return menu.reset();//not done yet                
         case FB:                            return contactMe();                     
         case DFS:                           return dfs();                       
         case BFS:                           return bfs();                       
