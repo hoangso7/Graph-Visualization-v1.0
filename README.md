@@ -26,7 +26,7 @@
 			$ cd /Desktop/Graph-Visualization-v1.0/
 			$ g++ -o main main.cpp -lsfml-graphics -lsfml-window -lsfml-system
 			$ ./main
-    //////////////////////////////////////////////////////////////////////////
+    
 									❤️Cám ơn❤️
 									Happy Coding
 [Download đề tài CTDL-GT khóa D17 (thầy Thư) ](https://drive.google.com/open?id=1vreF3dTwHiL8eRnaVr42--qiXZWiWywb)
