@@ -854,8 +854,6 @@ void Program::topoSortStart(int start){
         if(!KahnAlgorithm_TopoSort(degIn,order)){
             printText.announcement(L"Đồ thị tồn tại chu trình");
             updateFrame();
-        }else{
-
         }
     }
 }
