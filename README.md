@@ -11,7 +11,7 @@
 	  nếu bạn build lại trên Windows hoặc hệ điều hành khác, 
 	  một số chức năng sau đây có thể sẽ không hoạt động như mong muốn: 
 			- Import và Export file
-			- Contacte
+			- ContactMe
 	> Project này sử dụng thư viện SFML và ngôn ngữ C++, 
 	  để tìm hiểu thêm về thư viện này, bạn có thể lên trang chủ
 	  của SFML tại : https://www.sfml-dev.org/tutorials/2.5/start-linux.php
