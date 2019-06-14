@@ -14,7 +14,7 @@
 			- ContactMe
 	> Project này sử dụng thư viện SFML và ngôn ngữ C++, 
 	  để tìm hiểu thêm về thư viện này, bạn có thể lên trang chủ
-	  của SFML tại [đây](https://www.sfml-dev.org/tutorials/2.5/start-linux.php)
+	  của SFML tại : https://www.sfml-dev.org/tutorials/2.5/start-linux.php
 
 	> Nếu bạn có được Project này, vui lòng :
 			- Tôn trọng quyền tác giả, không xóa/sửa/copy source code. 
