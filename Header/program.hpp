@@ -601,6 +601,10 @@ void Program::SCC(){
         printText.announcement(result);
         updateFrame();
     }
+    if(userWantExit()){
+        menu.reset();
+        vList->resetVertexColor();
+    }
 }
 int Program::tarjanAlgo(bool showResult, int remove){
     const int &NUM = vList->getSize();
