@@ -29,4 +29,4 @@
     //////////////////////////////////////////////////////////////////////////
 									❤️Cám ơn❤️
 									Happy Coding
-![Screen Shot](https://raw.githubusercontent.com/ryryyy/Graph-Visualization-v1.0/master/image.png)
+![Screen Shot](https://github.com/ryryyy/Graph-Visualization-v1.0/blob/master/Screenshot.png)
