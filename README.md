@@ -23,7 +23,7 @@
 	> Hướng dẫn Compile trên Ubuntu:
 	Sau khi di chuyển tới thư mục chứa source code, chạy lệnh này để compile:
 	ví dụ, source code được lưu ở Desktop. Mở terminal (Ctrl + Alt + T):
-			$ cd /Desktop/GraphDemoProject/
+			$ cd /Desktop/Graph-Visualization-v1.0/
 			$ g++ -o main main.cpp -lsfml-graphics -lsfml-window -lsfml-system
 			$ ./main
     //////////////////////////////////////////////////////////////////////////
