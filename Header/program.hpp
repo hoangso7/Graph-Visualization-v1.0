@@ -31,10 +31,9 @@ class Program{
     Input input;//input from keyboard
 
     //  Algorithm Global Variables: 
-    int start = -1;// use for DFS/BFS Algorithm
+    int start = -1;// use for DFS/BFS/TopoSort Algorithm
     int *source,*dest; //use for Knot Vertex/ Shortest Path
     int hamiltonCount;//use for num of hamilton cycle
-    bool flag = false;//use for topo sort with many vertices with degIn = 0
 public:
     Program();
     ~Program();
