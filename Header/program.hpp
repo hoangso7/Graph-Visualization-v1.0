@@ -839,23 +839,20 @@ void Program::topoSort(){
     
 }
 void Program::topoSortStart(int start){
-    if(emptyGraph())return;
-    else{
-        int const &NUM = vList->getSize();
-        int degIn[NUM];
-        int order[NUM];
-        for(int i = 0; i<NUM; ++i){//calc deg of each vertices
-            degIn[i]=0;
-            for(int j = 0; j<NUM; ++j){
-                if(graph[j][i]!= NO_EDGE_VALUE)++degIn[i];
-            }
-            if(degIn[i]==0)vList->highlightVertex(i,Color::Magenta);
-        }
-        if(!KahnAlgorithm_TopoSort(degIn,order)){
-            printText.announcement(L"Đồ thị tồn tại chu trình");
-            updateFrame();
-        }
-    }
+	int const &NUM = vList->getSize();
+	int degIn[NUM];
+	int order[NUM];
+	for(int i = 0; i<NUM; ++i){//calc deg of each vertices
+	    degIn[i]=0;
+	    for(int j = 0; j<NUM; ++j){
+		if(graph[j][i]!= NO_EDGE_VALUE)++degIn[i];
+	    }
+	    if(degIn[i]==0)vList->highlightVertex(i,Color::Magenta);
+	}
+	if(!KahnAlgorithm_TopoSort(degIn,order)){
+	    printText.announcement(L"Đồ thị tồn tại chu trình");
+	    updateFrame();
+	}
 }
 bool Program::KahnAlgorithm_TopoSort(int *degIn, int *order){
     int const &NUM = vList->getSize();
