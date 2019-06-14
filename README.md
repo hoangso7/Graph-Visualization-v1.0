@@ -1,5 +1,5 @@
 	
-			Chương trình mô phỏng thuật toán trên đồ thị v1.0
+			Chương trình mô phỏng thuật toán trên đồ thị phiên bản 1.0
 				Đề tài số 7 : Cấu Trúc Dữ liệu & Giải thuật
 					GVHD: thầy Lưu Nguyễn Kỳ Thư
 
