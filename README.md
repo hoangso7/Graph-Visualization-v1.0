@@ -33,3 +33,5 @@
 
 ![Screen Shot](https://github.com/ryryyy/Graph-Visualization-v1.0/blob/master/Screenshot.png)
 
+Kết quả:
+![result](https://github.com/b1n4Rhy/Graph-Visualization-v1.0/blob/master/result.png)
