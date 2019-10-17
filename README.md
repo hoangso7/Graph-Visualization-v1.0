@@ -7,7 +7,7 @@
 	> Sinh viên khóa D17 An toàn thông tin, Học viện Bưu Chính Viễn Thông HCM
 	> Email liên hệ: < minhhoang.tcd@gmail.com >
  
-	> Project này được build trên hệ điều hành nhân UNIX (Ubuntu 18.10), 
+	> Project này được build trên hệ điều hành Ubuntu 18.10, 
 	  nếu bạn build lại trên Windows hoặc hệ điều hành khác, 
 	  một số chức năng sau đây có thể sẽ không hoạt động như mong muốn: 
 			- Import và Export file
